@@ -1,13 +1,11 @@
 # C++ Clickhouse Client Example
 
-## Build Instructions
-
-### Prerequisites
+## Prerequisites
 
 - cmake
 - llvm
 
-### Checkout Instructions
+## Checkout Instructions
 
 Clone recursively to get submodules as well
 ```
@@ -19,13 +17,19 @@ git submodule init
 git submodule update
 ```
 
-### Build
+## Build Instructions
 
 ```bash
 mkdir build
 export PATH=$(brew --prefix llvm)/bin:$PATH
 cmake -S . -B build
 cmake --build build
+```
+
+## Running
+
+```bash
+./build/clickhouse_client
 ```
 
 
