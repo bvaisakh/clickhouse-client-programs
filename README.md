@@ -1,3 +1,4 @@
 # Clickhouse Client Programs
 
-- [Java Sample](./java/README.md)
+- [Java](./java/README.md)
+- [Go](./go/README.md)
