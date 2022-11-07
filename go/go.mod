@@ -1,4 +1,4 @@
-module my-clickhouse-app
+module clickhouse-app
 
 go 1.19
 
