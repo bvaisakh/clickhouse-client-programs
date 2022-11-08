@@ -2,7 +2,7 @@ module clickhouse-app
 
 go 1.19
 
-require github.com/ClickHouse/clickhouse-go/v2 v2.3.1-0.20221103114955-bfd9f3393148
+require github.com/ClickHouse/clickhouse-go/v2 v2.3.0
 
 require (
 	github.com/ClickHouse/ch-go v0.49.0 // indirect
@@ -19,5 +19,4 @@ require (
 	go.opentelemetry.io/otel v1.11.1 // indirect
 	go.opentelemetry.io/otel/trace v1.11.1 // indirect
 	golang.org/x/sys v0.0.0-20220919091848-fb04ddd9f9c8 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
