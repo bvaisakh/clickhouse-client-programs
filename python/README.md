@@ -15,5 +15,3 @@ All pip install should be from / recorded in requirements.txt
   `source ./venv/bin/activate`
 - Formatting the source files  
   `autopep8 --in-place --aggressive <filename>`
-- Linting the source files  
-  `pylint <filename>`
