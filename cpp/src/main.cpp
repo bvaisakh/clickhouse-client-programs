@@ -63,15 +63,12 @@ int main()
 
         auto id = std::make_shared<ColumnUInt64>();
         id->Append(2);
-        id->Append(3);
 
         auto name = std::make_shared<ColumnString>();
         name->Append("Praseed Pai");
-        name->Append("Vaisakh Babu");
 
         auto mail = std::make_shared<ColumnString>();
         mail->Append("praseed.pai@chistadata.com");
-        mail->Append("vaisakh.babu@chistadata.com");
 
         block.AppendColumn("id", id);
         block.AppendColumn("name", name);
