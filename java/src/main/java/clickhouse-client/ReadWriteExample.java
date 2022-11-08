@@ -12,7 +12,7 @@ public class ReadWriteExample {
 
         System.out.println("------------------------------------------------------------------------------");
         System.out.println(
-                "INSERT INTO demo.contacts (id, name, mail) VALUES (4, 'Ahamed Sinan', 'ahamed.sinan@chistadata.com')");
+                "INSERT INTO demo.contacts (id, name, mail) VALUES (3, 'Vaisakh Babu', 'vaisakh.babu@chistadata.com')");
         System.out.println("------------------------------------------------------------------------------");
 
         Statement statement = connection.createStatement();
@@ -23,7 +23,7 @@ public class ReadWriteExample {
         }
 
         System.out.println("INSERTION IN PROGRESS");
-        String sql = "INSERT INTO demo.contacts (id, name, mail) VALUES (4, 'Ahamed Sinan', 'ahamed.sinan@chistadata.com')";
+        String sql = "INSERT INTO demo.contacts (id, name, mail) VALUES (3, 'Vaisakh Babu', 'vaisakh.babu@chistadata.com')";
         statement.execute(sql);
 
         resultSet = statement
